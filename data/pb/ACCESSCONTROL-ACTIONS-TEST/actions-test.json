@@ -12929,37 +12929,63 @@
     },
     {
       "id": 1708,
-      "name": "ReceiptRegisterMisc",
-      "url": null,
-      "displayName": "Receipt Register",
+      "name": "ConsumersDashboard",
+      "url": "url",
+      "displayName": "Consumers Dashboard",
       "orderNumber": 1,
+      "parentModule": "W&S",
       "enabled": true,
-      "serviceCode": "COLLECTIONS",
+      "serviceCode": "W&S",
       "code": "null",
-      "navigationURL": "report/finance/ReceiptRegister",
-      "path": "Collections.Reports.Receipt Register "
+      "path": "Dashboard.W&S.ConsumersDashboard",
+      "navigationURL": "dashboard/w&s/consumers",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
     },
-   {
+    {
       "id": 1709,
-      "name": "ReceiptRegisterMiscMeta",
-      "url": "/report/finance/metadata/_get",
-      "displayName": "Report metadata",
-      "orderNumber": 1,
+      "name": "CollectionsTrend",
+      "url": "url",
+      "displayName": "Collections Trend",
+      "orderNumber": 2,
+      "parentModule": "W&S",
       "enabled": true,
-      "serviceCode": "COLLECTIONS",
+      "serviceCode": "W&S",
       "code": "null",
-      "path": null
+      "path": "Dashboard.W&S.CollectionsTrend",
+      "navigationURL": "dashboard/w&s/collectionstrend",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
     },
-   {
+    {
       "id": 1710,
-      "name": "ReceiptRegisterMiscData",
-      "url": "/report/finance/_get",
-      "displayName": "Report data",
-      "orderNumber": 1,
+      "name": "Collections",
+      "url": "url",
+      "displayName": "Collections",
+      "orderNumber": 3,
+      "parentModule": "W&S",
       "enabled": true,
-      "serviceCode": "COLLECTIONS",
+      "serviceCode": "W&S",
       "code": "null",
-      "path": null
+      "path": "Dashboard.W&S.Collections",
+      "navigationURL": "dashboard/w&s/collections",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 1711,
+      "name": "FinancialIndicators",
+      "url": "url",
+      "displayName": "Financial Indicators",
+      "orderNumber": 4,
+      "parentModule": "W&S",
+      "enabled": true,
+      "serviceCode": "W&S",
+      "code": "null",
+      "path": "Dashboard.W&S.FinancialIndicators",
+      "navigationURL": "dashboard/w&s/financialindicators",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
     }
   ]
 }
